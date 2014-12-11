@@ -1,0 +1,177 @@
+/*-----------------------------------------*/
+/*-the general style ideas for remembering-*/
+/*-----------------------------------------*/
+
+
+
+/*////////////////////////////////////////
+/////////////////general//////////////////
+////////////////////////////////////////*/
+body{
+	background-color: #471045;
+	background-image: url("http://www.transparenttextures.com/patterns/white-leather.png");
+}
+
+
+a{
+	text-decoration: none;
+	color:#000000;
+	list-style: none;
+}
+
+#wrapper{
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+
+img{
+	max-width: 100%;
+}
+
+h3{
+	margin: 0 0 1em 0;
+	padding: 140px 0 0 0;
+	color: green;
+}
+
+p{
+	color: #32D611;
+	background-color: purple;
+	border-radius: 1px;
+	opacity: 30%;
+
+
+}
+/*site body*/
+body{
+	background-color: #fff;
+	font-family: 'Merriweather', serif;
+}
+
+#logo {
+	text-align: center;
+	margin: 0;
+}
+/*green background*/
+header{
+	float: left;
+	margin: 0 0 40px 0;
+	padding: 5px 0 0 0;
+	background: purple;
+	border-color: #2CC20E;
+	width: 100%;
+	position: fixed;
+}
+/*head and subhead*/
+h1, h2{
+	color: #5EA150;
+	font-family: 'Merriweather', serif;
+	font-weight: normal; 
+	margin: 15px 0;
+	font-size: 3em;
+	line-height:0.8em;
+	text-align: right;
+}
+h2{
+	font-size: 1.9em;
+	margin: -5px 0 0;
+}
+
+
+/*nav stuff*/
+nav{
+	text-align: right;
+	padding: 10px 0;
+	margin: 20px 0 0 0;
+	background: #7a9a88;
+	position: fixed;
+}
+nav ul{
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+	position: fixed;
+}
+nav li{
+	display: inline-block;
+	padding: 0 15px 0 15px;
+	float: right;
+}
+nav a{
+	font-weight: 800;
+	padding: 15px 10px;
+}
+/**/
+nav a, nav a:visited{
+	color: #2CC20E;
+}
+nav a.selected, nav a:hover{
+	color: #2CC20E;
+}
+
+footer{
+	font-size: .75em;
+	text-align: center;
+	clear: both;
+	padding-top: 50px;
+	color: gray;
+	font-family: 'Merriweather', serif;
+}
+.social-icon{
+	width:20px;
+	height: 20px;
+	margin: 0 5px;
+}
+
+#gallery{
+	margin: 0;
+	padding: 80px 0 0 0;
+	list-style: none;
+}
+#gallery li{
+	float: center;
+	width: 25%;
+	margin: 2.5%;
+	background-color: #f5f5f5;
+	color: #bdc3c7;
+}
+
+#gallery li:hover{
+	height: 50%;
+	width: 50%;
+}
+
+#gallery li a p{
+	margin: 0;
+	padding: 5%;
+	font-size: .75em;
+}
+/*footer info*/
+.contact-info{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.9em;
+}
+
+.contact-info a{
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px;
+}
+.contact-info li.phone a{
+	background-image: url('../img/phone.png');
+
+}
+.contact-info li.mail a{
+	background-image: url('../img/mail.png');
+
+}
+.contact-info li.twitter a{
+	background-image: url('../img/twitter.png');
+
+}
